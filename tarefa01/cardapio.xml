@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cardapio>
+    <prato id="P01">
+        <nome>Frango assado</nome>
+        <descricao>Frango assado temperado com ervas finas e azeite.</descricao>
+        <ingredientes>
+            <ingrediente>Frango</ingrediente>
+            <ingrediente>Ervas finas</ingrediente>
+            <ingrediente>Azeite</ingrediente>
+        </ingredientes>
+
+        <preco moeda="BRL"> R$reais; 35,00</preco>
+        <calorias>450 kcal</calorias>
+        <tempoPreparo>35 minutos</tempoPreparo>
+
+    </prato>
+    
+
+    <prato id="P02">
+        <nome>Salada</nome>
+        <descricao>Salada clássica, molho e Queijo parmesão.</descricao>
+        <ingredientes>
+            <ingrediente>Alface</ingrediente>
+            <ingrediente>molho</ingrediente>
+            <ingrediente>Queijo parmesão</ingrediente>
+            
+        </ingredientes>
+        <preco moeda="BRL"> R$reais; 22,00</preco>
+        <calorias>150 kcal</calorias>
+        <tempoPreparo>10 minutos</tempoPreparo>
+    </prato>
+
+    
+</cardapio>
