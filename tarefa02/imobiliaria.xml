@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE imobiliaria [
+  <!ELEMENT imobiliaria (imovel+)>
+ 
+  <!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+ 
+  <!ELEMENT descricao (#PCDATA)>
+  <!ELEMENT valor (#PCDATA)>
+ 
+  <!ELEMENT proprietario (nome, (email | telefone | (email, telefone+) | (telefone+, email) | (email+, telefone+)))>
+  <!ELEMENT nome (#PCDATA)>
+  <!ELEMENT email (#PCDATA)>
+  <!ELEMENT telefone (#PCDATA)>
+ 
+  <!ELEMENT endereco (rua, bairro, cidade, número?)>
+  <!ELEMENT rua (#PCDATA)>
+  <!ELEMENT bairro (#PCDATA)>
+  <!ELEMENT cidade (#PCDATA)>
+  <!ELEMENT número (#PCDATA)>
+ 
+  <!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+  <!ELEMENT tamanho (#PCDATA)>
+  <!ELEMENT numQuartos (#PCDATA)>
+  <!ELEMENT numBanheiros (#PCDATA)>
+]>
+ 
+<imobiliaria>
+ 
+  
+  <imovel>
+    <descricao>Casa espaçosa com quintal e garagem coberta, ideal para famílias grandes.</descricao>
+    <proprietario>
+      <nome>Carlos Eduardo Mendonça</nome>
+      <email>carlos.mendonca@email.com</email>
+      <telefone>(84) 98801-1234</telefone>
+      <telefone>(84) 3221-5678</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua das Acácias</rua>
+      <bairro>Lagoa Nova</bairro>
+      <cidade>Natal</cidade>
+      <número>142</número>
+    </endereco>
+    <caracteristicas>
+      <tamanho>180m²</tamanho>
+      <numQuartos>4</numQuartos>
+      <numBanheiros>3</numBanheiros>
+    </caracteristicas>
+    <valor>R$ 650.000,00</valor>
+  </imovel>
+ 
+  
+  <imovel>
+    <descricao>Apartamento moderno no coração de Ponta Negra, a 500m da praia.</descricao>
+    <proprietario>
+      <nome>Fernanda Lima Sousa</nome>
+      <telefone>(84) 99912-4321</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Avenida Engenheiro Roberto Freire</rua>
+      <bairro>Ponta Negra</bairro>
+      <cidade>Natal</cidade>
+      <número>3500</número>
+    </endereco>
+    <caracteristicas>
+      <tamanho>75m²</tamanho>
+      <numQuartos>2</numQuartos>
+      <numBanheiros>1</numBanheiros>
+    </caracteristicas>
+    <valor>R$ 380.000,00</valor>
+  </imovel>
+ 
+  
+  <imovel>
+    <descricao>Terreno plano em área de expansão urbana, com ótimo potencial de valorização.</descricao>
+    <proprietario>
+      <nome>Roberto Alves Neto</nome>
+      <email>robertoneto@construtora.com.br</email>
+      <telefone>(84) 98765-0000</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Estrada do Cajueiro</rua>
+      <bairro>Pitimbu</bairro>
+      <cidade>Natal</cidade>
+     
+    </endereco>
+    <caracteristicas>
+      <tamanho>500m²</tamanho>
+      <numQuartos>0</numQuartos>
+      <numBanheiros>0</numBanheiros>
+    </caracteristicas>
+    <valor>R$ 120.000,00</valor>
+  </imovel>
+ 
+  
+  <imovel>
+    <descricao>Sala comercial no centro empresarial, ideal para escritórios e clínicas.</descricao>
+    <proprietario>
+      <nome>Márcia Cristina Borges</nome>
+      <email>marcia.borges@negocios.com</email>
+    </proprietario>
+    <endereco>
+      <rua>Avenida Hermes da Fonseca</rua>
+      <bairro>Tirol</bairro>
+      <cidade>Natal</cidade>
+      <número>790</número>
+    </endereco>
+    <caracteristicas>
+      <tamanho>45m²</tamanho>
+      <numQuartos>0</numQuartos>
+      <numBanheiros>1</numBanheiros>
+    </caracteristicas>
+    <valor>R$ 210.000,00</valor>
+  </imovel>
+ 
+  
+  <imovel>
+    <descricao>Cobertura duplex com vista panorâmica para o mar e área de lazer completa.</descricao>
+    <proprietario>
+      <nome>Antônio Paulo Cavalcante</nome>
+      <email>antoniocavalcante@vipmail.com</email>
+      <telefone>(84) 99900-8888</telefone>
+      <telefone>(84) 98800-7777</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua Manoel Medeiros</rua>
+      <bairro>Areia Preta</bairro>
+      <cidade>Natal</cidade>
+      <número>55</número>
+    </endereco>
+    <caracteristicas>
+      <tamanho>320m²</tamanho>
+      <numQuartos>5</numQuartos>
+      <numBanheiros>4</numBanheiros>
+    </caracteristicas>
+    <valor>R$ 1.850.000,00</valor>
+  </imovel>
+ 
+</imobiliaria>
