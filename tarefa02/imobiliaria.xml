@@ -1,26 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE imobiliaria [
   <!ELEMENT imobiliaria (imovel+)>
- 
+
   <!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
- 
+
   <!ELEMENT descricao (#PCDATA)>
+
   <!ELEMENT valor (#PCDATA)>
- 
+
   <!ELEMENT proprietario (nome, (email | telefone | (email, telefone+) | (telefone+, email) | (email+, telefone+)))>
+
   <!ELEMENT nome (#PCDATA)>
+
   <!ELEMENT email (#PCDATA)>
+
   <!ELEMENT telefone (#PCDATA)>
- 
+
   <!ELEMENT endereco (rua, bairro, cidade, número?)>
+
   <!ELEMENT rua (#PCDATA)>
+
   <!ELEMENT bairro (#PCDATA)>
+
   <!ELEMENT cidade (#PCDATA)>
+
   <!ELEMENT número (#PCDATA)>
- 
+
   <!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+
   <!ELEMENT tamanho (#PCDATA)>
+
   <!ELEMENT numQuartos (#PCDATA)>
+
   <!ELEMENT numBanheiros (#PCDATA)>
 ]>
  
@@ -30,13 +41,13 @@
   <imovel>
     <descricao>Casa espaçosa com quintal e garagem coberta, ideal para famílias grandes.</descricao>
     <proprietario>
-      <nome>Carlos Eduardo Mendonça</nome>
-      <email>carlos.mendonca@email.com</email>
+      <nome>Carlos Eduardo </nome>
+      <email>carlos@email.com</email>
       <telefone>(84) 98801-1234</telefone>
       <telefone>(84) 3221-5678</telefone>
     </proprietario>
     <endereco>
-      <rua>Rua das Acácias</rua>
+      <rua>Rua tota azevedo</rua>
       <bairro>Lagoa Nova</bairro>
       <cidade>Natal</cidade>
       <número>142</número>
@@ -51,16 +62,16 @@
  
   
   <imovel>
-    <descricao>Apartamento moderno no coração de Ponta Negra, a 500m da praia.</descricao>
+    <descricao>Apartamento moderno.</descricao>
     <proprietario>
-      <nome>Fernanda Lima Sousa</nome>
+      <nome>Artur Felipe</nome>
       <telefone>(84) 99912-4321</telefone>
     </proprietario>
     <endereco>
-      <rua>Avenida Engenheiro Roberto Freire</rua>
+      <rua>Avenida Engenheiro Roberto</rua>
       <bairro>Ponta Negra</bairro>
       <cidade>Natal</cidade>
-      <número>3500</número>
+      <número>0000</número>
     </endereco>
     <caracteristicas>
       <tamanho>75m²</tamanho>
@@ -72,10 +83,10 @@
  
   
   <imovel>
-    <descricao>Terreno plano em área de expansão urbana, com ótimo potencial de valorização.</descricao>
+    <descricao>Terreno plano em área de expansão urbana.</descricao>
     <proprietario>
-      <nome>Roberto Alves Neto</nome>
-      <email>robertoneto@construtora.com.br</email>
+      <nome>igor Murilo</nome>
+      <email>ig@construtora.com.br</email>
       <telefone>(84) 98765-0000</telefone>
     </proprietario>
     <endereco>
@@ -94,16 +105,16 @@
  
   
   <imovel>
-    <descricao>Sala comercial no centro empresarial, ideal para escritórios e clínicas.</descricao>
+    <descricao>Sala comercial no centro empresarial.</descricao>
     <proprietario>
       <nome>Márcia Cristina Borges</nome>
-      <email>marcia.borges@negocios.com</email>
+      <email>marcia@negocios.com</email>
     </proprietario>
     <endereco>
       <rua>Avenida Hermes da Fonseca</rua>
       <bairro>Tirol</bairro>
       <cidade>Natal</cidade>
-      <número>790</número>
+      <número>0000</número>
     </endereco>
     <caracteristicas>
       <tamanho>45m²</tamanho>
@@ -115,10 +126,10 @@
  
   
   <imovel>
-    <descricao>Cobertura duplex com vista panorâmica para o mar e área de lazer completa.</descricao>
+    <descricao>Cobertura duplex com vista panorâmica para o mar.</descricao>
     <proprietario>
-      <nome>Antônio Paulo Cavalcante</nome>
-      <email>antoniocavalcante@vipmail.com</email>
+      <nome>Antônio Paulo</nome>
+      <email>antonio@vipmail.com</email>
       <telefone>(84) 99900-8888</telefone>
       <telefone>(84) 98800-7777</telefone>
     </proprietario>

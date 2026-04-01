@@ -1,2 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE quiz SYSTEM "quiz.dtd">
+<quiz versao="1.0">
+  <disciplina>licenciatura em matematica</disciplina>
+  <professor>
+    <nome>pinheiro</nome>
+    <matrícula>20230000</matrícula>
+  </professor>
+  <turma>Infoweb 2024.1</turma>
+  <data>2024-07-04</data>
+  <questões>
+    <questão>
+      <enunciado>Um objeto em queda livre, desconsiderando a resistência do ar, possui aceleração constante durante todo o movimento?</enunciado>
+      <pontuação>10</pontuação>
+      <alternativas>
+        <alternativa correta="sim"></alternativa>
+        <alternativa correta="nao"></alternativa>
+      </alternativas>
+    </questão>
+
+    <questão>
+      <enunciado>Em um Movimento Retilíneo Uniforme, a velocidade do objeto permanece constante ao longo do tempo?</enunciado>
+      <pontuação>10</pontuação>
+      <alternativas>
+        <alternativa correta="sim"></alternativa>
+        <alternativa correta="nao"></alternativa>
+        
+      </alternativas>
+    </questão>
+
+    <questão>
+      <enunciado>Um objeto é lançado verticalmente para cima. Durante a subida, o que acontece com sua velocidade e aceleração?</enunciado>
+      <pontuação>5</pontuação>
+      <alternativas>
+        <alternativa correta="sim">A velocidade diminui e a aceleração é constante e dirigida para baixo.</alternativa>
+        <alternativa correta="nao">A velocidade diminui e a aceleração diminui até zero.</alternativa>
+        <alternativa correta="nao">A velocidade aumenta e a aceleração é constante para cima.</alternativa>
+        <alternativa correta="nao">A velocidade aumenta e a aceleração também aumenta.</alternativa>
+      </alternativas>
+    </questão>
+
+    <questão>
+      <enunciado>Um corpo está em repouso sobre uma mesa. Sobre as forças que atuam nele, é correto afirmar:</enunciado>
+      <pontuação>10</pontuação>
+      <alternativas>
+        <alternativa correta="nao">Existe apenas a força normal atuando no corpo.</alternativa>
+        <alternativa correta="sim">A força peso e a força normal se anulam, resultando em força resultante zero.</alternativa>
+        <alternativa correta="nao">A força normal é maior que a força peso.</alternativa>
+        <alternativa correta="nao">Não há nenhuma força atuando no corpo.</alternativa>
+      </alternativas>
+    </questão>
+
+    <questão>
+      <enunciado>Um carro está se movendo em linha reta com velocidade constante. Sobre esse movimento, é correto afirmar:</enunciado>
+      <pontuação>10</pontuação>
+      <alternativas>
+        <alternativa correta="nao">Existe uma força resultante atuando no carro na direção do movimento.</alternativa>
+        <alternativa correta="nao">A aceleração do carro é diferente de zero.</alternativa>
+        <alternativa correta="sim">A força resultante sobre o carro é zero.</alternativa>
+        <alternativa correta="nao">O carro está diminuindo sua velocidade.</alternativa>
+      </alternativas>
+    </questão>
+  </questões>
+</quiz>
