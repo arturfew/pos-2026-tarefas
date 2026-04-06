@@ -11,7 +11,6 @@
 
 <!ELEMENT preco (#PCDATA)>
 <!ATTLIST preco moeda (BRL|USD) "BRL">
-<!ENTITY reais "R$">
 
 <!ELEMENT calorias (#PCDATA)>
 <!ELEMENT tempoPreparo (#PCDATA)>

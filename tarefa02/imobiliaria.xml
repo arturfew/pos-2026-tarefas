@@ -1,38 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE imobiliaria [
-  <!ELEMENT imobiliaria (imovel+)>
+<!ELEMENT imobiliaria (imovel+)>
 
-  <!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+<!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+<!ELEMENT descricao (#PCDATA)>
+<!ELEMENT valor (#PCDATA)>
 
-  <!ELEMENT descricao (#PCDATA)>
+<!ELEMENT proprietario (nome, email?, telefone*)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefone (#PCDATA)>
 
-  <!ELEMENT valor (#PCDATA)>
+<!ELEMENT endereco (rua, bairro, cidade, número?)>
+<!ELEMENT rua (#PCDATA)>
+<!ELEMENT bairro (#PCDATA)>
+<!ELEMENT cidade (#PCDATA)>
+<!ELEMENT número (#PCDATA)>
 
-  <!ELEMENT proprietario (nome, (email | telefone | (email, telefone+) | (telefone+, email) | (email+, telefone+)))>
-
-  <!ELEMENT nome (#PCDATA)>
-
-  <!ELEMENT email (#PCDATA)>
-
-  <!ELEMENT telefone (#PCDATA)>
-
-  <!ELEMENT endereco (rua, bairro, cidade, número?)>
-
-  <!ELEMENT rua (#PCDATA)>
-
-  <!ELEMENT bairro (#PCDATA)>
-
-  <!ELEMENT cidade (#PCDATA)>
-
-  <!ELEMENT número (#PCDATA)>
-
-  <!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
-
-  <!ELEMENT tamanho (#PCDATA)>
-
-  <!ELEMENT numQuartos (#PCDATA)>
-
-  <!ELEMENT numBanheiros (#PCDATA)>
+<!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+<!ELEMENT tamanho (#PCDATA)>
+<!ELEMENT numQuartos (#PCDATA)>
+<!ELEMENT numBanheiros (#PCDATA)>
 ]>
  
 <imobiliaria>
@@ -107,7 +95,7 @@
   <imovel>
     <descricao>Sala comercial no centro empresarial.</descricao>
     <proprietario>
-      <nome>Márcia Cristina Borges</nome>
+      <nome>Márcia</nome>
       <email>marcia@negocios.com</email>
     </proprietario>
     <endereco>
@@ -126,7 +114,7 @@
  
   
   <imovel>
-    <descricao>Cobertura duplex com vista panorâmica para o mar.</descricao>
+    <descricao>Cobertura com vista panorâmica para o mar.</descricao>
     <proprietario>
       <nome>Antônio Paulo</nome>
       <email>antonio@vipmail.com</email>
@@ -134,10 +122,10 @@
       <telefone>(84) 98800-7777</telefone>
     </proprietario>
     <endereco>
-      <rua>Rua Manoel Medeiros</rua>
+      <rua>Rua Manoel</rua>
       <bairro>Areia Preta</bairro>
       <cidade>Natal</cidade>
-      <número>55</número>
+      <número>01</número>
     </endereco>
     <caracteristicas>
       <tamanho>320m²</tamanho>
