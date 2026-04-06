@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE quiz SYSTEM "quiz.dtd">
 <quiz versao="1.0">
-  <disciplina>licenciatura em matematica</disciplina>
+  <disciplina>Fisica</disciplina>
   <professor>
     <nome>pinheiro</nome>
     <matrícula>20230000</matrícula>
