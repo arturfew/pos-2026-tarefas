@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cardapio xmlns="http://cardapio.org"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://cardapio.org cardapio.xsd">
+
+    <prato idPrato="1">
+        <nome>Frango assado</nome>
+        <descricao>Frango assado temperado com ervas finas e azeite.</descricao>
+        <ingredientes>
+            <ingrediente>Frango</ingrediente>
+            <ingrediente>Ervas finas</ingrediente>
+            <ingrediente>Azeite</ingrediente>
+        </ingredientes>
+        <preco>35.00</preco>
+        <calorias>450</calorias>
+        <tempoPreparo>35 minutos</tempoPreparo>
+    </prato>
+
+    <prato idPrato="2">
+        <nome>Salada</nome>
+        <descricao>Salada clássica, molho e Queijo parmesão.</descricao>
+        <ingredientes>
+            <ingrediente>Alface</ingrediente>
+            <ingrediente>Molho</ingrediente>
+            <ingrediente>Queijo parmesão</ingrediente>
+        </ingredientes>
+        <preco>22.00</preco>
+        <calorias>150</calorias>
+        <tempoPreparo>10 minutos</tempoPreparo>
+    </prato>
+
+    <prato idPrato="3">
+        <nome>Vitamina de banana</nome>
+        <descricao>Vitamina de banana deliciosa ao leite.</descricao>
+        <ingredientes>
+            <ingrediente>Banana</ingrediente>
+            <ingrediente>Leite</ingrediente>
+            <ingrediente>Whey protein</ingrediente>
+        </ingredientes>
+        <preco>13.00</preco>
+        <calorias>300</calorias>
+        <tempoPreparo>6 minutos</tempoPreparo>
+    </prato>
+
+    <prato idPrato="4">
+        <nome>Chocolate</nome>
+        <descricao>Chocolate de colher saboroso.</descricao>
+        <ingredientes>
+            <ingrediente>Achocolatado</ingrediente>
+            <ingrediente>Leite condensado</ingrediente>
+            <ingrediente>Granulado</ingrediente>
+        </ingredientes>
+        <preco>15.00</preco>
+        <calorias>500</calorias>
+        <tempoPreparo>15 minutos</tempoPreparo>
+    </prato>
+
+    <prato idPrato="5">
+        <nome>Din din</nome>
+        <descricao>Din din super saboroso de morango.</descricao>
+        <ingredientes>
+            <ingrediente>Água</ingrediente>
+            <ingrediente>Leite da vaca</ingrediente>
+            <ingrediente>Morango</ingrediente>
+        </ingredientes>
+        <preco>5.00</preco>
+        <calorias>60</calorias>
+        <tempoPreparo>90 minutos</tempoPreparo>
+    </prato>
+
+</cardapio>
