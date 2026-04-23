@@ -1,0 +1,60 @@
+{
+    "quiz": {
+      "versao": "1.0",
+      "disciplina": "Fisica",
+      "professor": {
+        "nome": "pinheiro",
+        "matricula": "20230000"
+      },
+      "turma": "Infoweb 2024.1",
+      "data": "2024-07-04",
+      "questoes": [
+        {
+          "enunciado": "Um objeto em queda livre, desconsiderando a resistência do ar, possui aceleração constante durante todo o movimento?",
+          "pontuacao": 10,
+          "alternativas": [
+            { "correta": true,  "texto": "" },
+            { "correta": false, "texto": "" }
+          ]
+        },
+        {
+          "enunciado": "Em um Movimento Retilíneo Uniforme, a velocidade do objeto permanece constante ao longo do tempo?",
+          "pontuacao": 10,
+          "alternativas": [
+            { "correta": true,  "texto": "" },
+            { "correta": false, "texto": "" }
+          ]
+        },
+        {
+          "enunciado": "Um objeto é lançado verticalmente para cima. Durante a subida, o que acontece com sua velocidade e aceleração?",
+          "pontuacao": 5,
+          "alternativas": [
+            { "correta": true,  "texto": "A velocidade diminui e a aceleração é constante e dirigida para baixo." },
+            { "correta": false, "texto": "A velocidade diminui e a aceleração diminui até zero." },
+            { "correta": false, "texto": "A velocidade aumenta e a aceleração é constante para cima." },
+            { "correta": false, "texto": "A velocidade aumenta e a aceleração também aumenta." }
+          ]
+        },
+        {
+          "enunciado": "Um corpo está em repouso sobre uma mesa. Sobre as forças que atuam nele, é correto afirmar:",
+          "pontuacao": 10,
+          "alternativas": [
+            { "correta": false, "texto": "Existe apenas a força normal atuando no corpo." },
+            { "correta": true,  "texto": "A força peso e a força normal se anulam, resultando em força resultante zero." },
+            { "correta": false, "texto": "A força normal é maior que a força peso." },
+            { "correta": false, "texto": "Não há nenhuma força atuando no corpo." }
+          ]
+        },
+        {
+          "enunciado": "Um carro está se movendo em linha reta com velocidade constante. Sobre esse movimento, é correto afirmar:",
+          "pontuacao": 10,
+          "alternativas": [
+            { "correta": false, "texto": "Existe uma força resultante atuando no carro na direção do movimento." },
+            { "correta": false, "texto": "A aceleração do carro é diferente de zero." },
+            { "correta": true,  "texto": "A força resultante sobre o carro é zero." },
+            { "correta": false, "texto": "O carro está diminuindo sua velocidade." }
+          ]
+        }
+      ]
+    }
+  }

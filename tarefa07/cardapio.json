@@ -1,0 +1,66 @@
+{
+    "cardapio": {
+      "pratos": [
+        {
+          "id": "P01",
+          "nome": "Frango assado",
+          "descricao": "Frango assado temperado com ervas finas e azeite.",
+          "ingredientes": ["Frango", "Ervas finas", "Azeite"],
+          "preco": {
+            "moeda": "BRL",
+            "valor": 35.00
+          },
+          "calorias": "450 kcal",
+          "tempoPreparo": "35 minutos"
+        },
+        {
+          "id": "P02",
+          "nome": "Salada",
+          "descricao": "Salada clássica, molho e Queijo parmesão.",
+          "ingredientes": ["Alface", "Molho", "Queijo parmesão"],
+          "preco": {
+            "moeda": "BRL",
+            "valor": 22.00
+          },
+          "calorias": "150 kcal",
+          "tempoPreparo": "10 minutos"
+        },
+        {
+          "id": "P03",
+          "nome": "Vitamina de banana",
+          "descricao": "Vitamina de banana deliciosa ao leite.",
+          "ingredientes": ["Banana", "Leite", "Whey protein"],
+          "preco": {
+            "moeda": "BRL",
+            "valor": 13.00
+          },
+          "calorias": "300 kcal",
+          "tempoPreparo": "6 minutos"
+        },
+        {
+          "id": "P04",
+          "nome": "Chocolate",
+          "descricao": "Chocolate de colher saboroso.",
+          "ingredientes": ["Achocolatado", "Leite condensado", "Granulado"],
+          "preco": {
+            "moeda": "BRL",
+            "valor": 15.00
+          },
+          "calorias": "500 kcal",
+          "tempoPreparo": "15 minutos"
+        },
+        {
+          "id": "P05",
+          "nome": "Din din",
+          "descricao": "Din din super saboroso de morango.",
+          "ingredientes": ["Água", "Leite da vaca", "Morango"],
+          "preco": {
+            "moeda": "BRL",
+            "valor": 5.00
+          },
+          "calorias": "60 kcal",
+          "tempoPreparo": "90 minutos"
+        }
+      ]
+    }
+  }

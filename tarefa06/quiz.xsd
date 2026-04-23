@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://quiz.org"
+        xmlns:q="http://quiz.org"
+        elementFormDefault="qualified">
+
+    
+    <element name="quiz">
+        <complexType>
+            <sequence>
+
+                <element name="disciplina" type="string"/>
+
+                <element name="professor">
+                    <complexType>
+                        <sequence>
+                            <element name="nome" type="string"/>
+                            <element name="matricula" type="integer"/>
+                        </sequence>
+                    </complexType>
+                </element>
+
+                <element name="turma" type="string"/>
+                <element name="data" type="date"/>
+
+                <element name="questoes">
+                    <complexType>
+                        <sequence>
+
+                            <element name="questao" maxOccurs="unbounded">
+                                <complexType>
+                                    <sequence>
+
+                                        <element name="enunciado" type="string"/>
+                                        <element name="pontuacao" type="integer"/>
+
+                                        <element name="alternativas">
+                                            <complexType>
+                                                <sequence>
+
+                                                    <element name="alternativa" maxOccurs="unbounded">
+                                                        <complexType mixed="true">
+                                                            <attribute name="correta" use="required">
+                                                                <simpleType>
+                                                                    <restriction base="string">
+                                                                        <enumeration value="sim"/>
+                                                                        <enumeration value="nao"/>
+                                                                    </restriction>
+                                                                </simpleType>
+                                                            </attribute>
+                                                        </complexType>
+                                                    </element>
+
+                                                </sequence>
+                                            </complexType>
+                                        </element>
+
+                                    </sequence>
+                                </complexType>
+                            </element>
+
+                        </sequence>
+                    </complexType>
+                </element>
+
+            </sequence>
+
+            <attribute name="versao" type="string" use="required"/>
+
+        </complexType>
+    </element>
+
+</schema>

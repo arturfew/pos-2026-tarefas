@@ -1,0 +1,106 @@
+{
+    "imobiliaria": {
+      "imoveis": [
+        {
+          "descricao": "Casa espaçosa com quintal e garagem coberta, ideal para famílias grandes.",
+          "proprietario": {
+            "nome": "Carlos Eduardo",
+            "email": "carlos@email.com",
+            "telefones": ["(84) 98801-1234", "(84) 3221-5678"]
+          },
+          "endereco": {
+            "rua": "Rua Tota Azevedo",
+            "bairro": "Lagoa Nova",
+            "cidade": "Natal",
+            "numero": 142
+          },
+          "caracteristicas": {
+            "tamanho": "180m²",
+            "numQuartos": 4,
+            "numBanheiros": 3
+          },
+          "valor": "R$ 650.000,00"
+        },
+        {
+          "descricao": "Apartamento moderno.",
+          "proprietario": {
+            "nome": "Artur Felipe",
+            "email": null,
+            "telefones": ["(84) 99912-4321"]
+          },
+          "endereco": {
+            "rua": "Avenida Engenheiro Roberto",
+            "bairro": "Ponta Negra",
+            "cidade": "Natal",
+            "numero": 0
+          },
+          "caracteristicas": {
+            "tamanho": "75m²",
+            "numQuartos": 2,
+            "numBanheiros": 1
+          },
+          "valor": "R$ 380.000,00"
+        },
+        {
+          "descricao": "Terreno plano em área de expansão urbana.",
+          "proprietario": {
+            "nome": "Igor Murilo",
+            "email": "ig@construtora.com.br",
+            "telefones": ["(84) 98765-0000"]
+          },
+          "endereco": {
+            "rua": "Estrada do Cajueiro",
+            "bairro": "Pitimbu",
+            "cidade": "Natal",
+            "numero": null
+          },
+          "caracteristicas": {
+            "tamanho": "500m²",
+            "numQuartos": 0,
+            "numBanheiros": 0
+          },
+          "valor": "R$ 120.000,00"
+        },
+        {
+          "descricao": "Sala comercial no centro empresarial.",
+          "proprietario": {
+            "nome": "Márcia",
+            "email": "marcia@negocios.com",
+            "telefones": []
+          },
+          "endereco": {
+            "rua": "Avenida Hermes da Fonseca",
+            "bairro": "Tirol",
+            "cidade": "Natal",
+            "numero": 0
+          },
+          "caracteristicas": {
+            "tamanho": "45m²",
+            "numQuartos": 0,
+            "numBanheiros": 1
+          },
+          "valor": "R$ 210.000,00"
+        },
+        {
+          "descricao": "Cobertura com vista panorâmica para o mar.",
+          "proprietario": {
+            "nome": "Antônio Paulo",
+            "email": "antonio@vipmail.com",
+            "telefones": ["(84) 99900-8888", "(84) 98800-7777"]
+          },
+          "endereco": {
+            "rua": "Rua Manoel",
+            "bairro": "Areia Preta",
+            "cidade": "Natal",
+            "numero": 1
+          },
+          "caracteristicas": {
+            "tamanho": "320m²",
+            "numQuartos": 5,
+            "numBanheiros": 4
+          },
+          "valor": "R$ 1.850.000,00"
+        }
+      ]
+    }
+  }

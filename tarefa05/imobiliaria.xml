@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<imobiliaria xmlns="http://imobiliaria.org" 
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://imobiliaria.org imobiliaria.xsd">
+
+    <imovel>
+        <descricao>Casa espaçosa com quintal e garagem coberta, ideal para famílias grandes</descricao>
+        <proprietario>
+            <nome>Carlos Eduardo</nome>
+            <email>joao@email.com</email>
+            <telefone>84999990001</telefone>
+            <telefone>84999990002</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Flores</rua>
+            <bairro>Centro</bairro>
+            <cidade>Natal</cidade>
+            <numero>123</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>80</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>150000</valor>
+    </imovel>
+
+    
+     
+
+    <imovel>
+        <descricao>Apartamento moderno.</descricao>
+        <proprietario>
+            <nome>Artur Felipe</nome>
+            <email>maria@email.com</email>
+            <telefone>84999990003</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Av. Principal</rua>
+            <bairro>Zona Sul</bairro>
+            <cidade>Natal</cidade>
+            <numero>456</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>60</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>200000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Terreno plano em área de expansão urbana.</descricao>
+        <proprietario>
+            <nome>Lucas Lima</nome>
+            <email>lucas@email.com</email>
+            <telefone>84999990004</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua Verde</rua>
+            <bairro>Lagoa Nova</bairro>
+            <cidade>Natal</cidade>
+            <numero>789</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>120</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>300000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Sala comercial no centro empresarial.</descricao>
+        <proprietario>
+            <nome>Ana Costa</nome>
+            <email>ana@email.com</email>
+            <telefone>84999990005</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua Azul</rua>
+            <bairro>Ponta Negra</bairro>
+            <cidade>Natal</cidade>
+            <numero>101</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>70</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>250000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Cobertura com vista panorâmica para o mar.</descricao>
+        <proprietario>
+            <nome>Pedro Alves</nome>
+            <email>pedro@email.com</email>
+            <telefone>84999990006</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua do Sol</rua>
+            <bairro>Igapó</bairro>
+            <cidade>Natal</cidade>
+            <!-- sem numero -->
+        </endereco>
+        <caracteristicas>
+            <tamanho>50</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>120000</valor>
+    </imovel>
+
+</imobiliaria>
