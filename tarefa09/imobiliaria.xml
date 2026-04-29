@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<imobiliaria>
+
+    <imovel>
+        <descricao>Casa espaçosa com quintal e garagem coberta, ideal para famílias grandes.</descricao>
+        <proprietario>
+            <nome>Carlos Eduardo</nome>
+            <email>carlos@email.com</email>
+            <telefone>(84) 98801-1234</telefone>
+            <telefone>(84) 3221-5678</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua Tota Azevedo</rua>
+            <bairro>Lagoa Nova</bairro>
+            <cidade>Natal</cidade>
+            <numero>142</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>180m²</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 650.000,00</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Apartamento moderno.</descricao>
+        <proprietario>
+            <nome>Artur Felipe</nome>
+            <telefone>(84) 99912-4321</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Avenida Engenheiro Roberto</rua>
+            <bairro>Ponta Negra</bairro>
+            <cidade>Natal</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>75m²</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 380.000,00</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Terreno plano em área de expansão urbana.</descricao>
+        <proprietario>
+            <nome>Igor Murilo</nome>
+            <email>ig@construtora.com.br</email>
+            <telefone>(84) 98765-0000</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Estrada do Cajueiro</rua>
+            <bairro>Pitimbu</bairro>
+            <cidade>Natal</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>500m²</tamanho>
+            <numQuartos>0</numQuartos>
+            <numBanheiros>0</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 120.000,00</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Sala comercial no centro empresarial.</descricao>
+        <proprietario>
+            <nome>Márcia</nome>
+            <email>marcia@negocios.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Avenida Hermes da Fonseca</rua>
+            <bairro>Tirol</bairro>
+            <cidade>Natal</cidade>
+            <numero>0</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>45m²</tamanho>
+            <numQuartos>0</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 210.000,00</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Cobertura com vista panorâmica para o mar.</descricao>
+        <proprietario>
+            <nome>Antônio Paulo</nome>
+            <email>antonio@vipmail.com</email>
+            <telefone>(84) 99900-8888</telefone>
+            <telefone>(84) 98800-7777</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua Manoel</rua>
+            <bairro>Areia Preta</bairro>
+            <cidade>Natal</cidade>
+            <numero>1</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>320m²</tamanho>
+            <numQuartos>5</numQuartos>
+            <numBanheiros>4</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 1.850.000,00</valor>
+    </imovel>
+
+</imobiliaria>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cardapio>
+    <prato id="P01">
+        <nome>Frango assado</nome>
+        <descricao>Frango assado temperado com ervas finas e azeite.</descricao>
+        <ingredientes>
+            <ingrediente>Frango</ingrediente>
+            <ingrediente>Ervas finas</ingrediente>
+            <ingrediente>Azeite</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">R$ 35.00</preco>
+        <calorias>450 kcal</calorias>
+        <tempoPreparo>35 minutos</tempoPreparo>
+    </prato>
+
+    <prato id="P02">
+        <nome>Salada</nome>
+        <descricao>Salada clássica, molho e Queijo parmesão.</descricao>
+        <ingredientes>
+            <ingrediente>Alface</ingrediente>
+            <ingrediente>molho</ingrediente>
+            <ingrediente>Queijo parmesão</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">R$ 22.00</preco>
+        <calorias>150 kcal</calorias>
+        <tempoPreparo>10 minutos</tempoPreparo>
+    </prato>
+
+    <prato id="P03">
+        <nome>vitamina de banana</nome>
+        <descricao>Vitamina de banana deliciosa ao leite.</descricao>
+        <ingredientes>
+            <ingrediente>banana</ingrediente>
+            <ingrediente>leite</ingrediente>
+            <ingrediente>whey protein</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">R$ 13.00</preco>
+        <calorias>300 kcal</calorias>
+        <tempoPreparo>6 minutos</tempoPreparo>
+    </prato>
+
+    <prato id="P04">
+        <nome>chocolate</nome>
+        <descricao>chocolate de colher saboroso.</descricao>
+        <ingredientes>
+            <ingrediente>achocolatado</ingrediente>
+            <ingrediente>leite condensado</ingrediente>
+            <ingrediente>granulado</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">R$ 15.00</preco>
+        <calorias>500 kcal</calorias>
+        <tempoPreparo>15 minutos</tempoPreparo>
+    </prato>
+
+    <prato id="P05">
+        <nome>din din</nome>
+        <descricao>din din super saboroso de morango.</descricao>
+        <ingredientes>
+            <ingrediente>água</ingrediente>
+            <ingrediente>leite da vaca</ingrediente>
+            <ingrediente>morango</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">R$ 5.00</preco>
+        <calorias>60 kcal</calorias>
+        <tempoPreparo>90 minutos</tempoPreparo>
+    </prato>
+</cardapio>
